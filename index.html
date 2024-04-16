@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+           background-image: url(blogpost_portfolio.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <section>
+      <div class="form-login">
+        <div class="username">
+            <h1 class="center">Login</h1>
+            <img class="shop" src="the trio shop logo.png" alt="shop">
+            <h4>Username</h4>
+            <input type="email" placeholder="username" id="username">
+        </div>
+        <div class="Password">
+            <h4>Password</h4>
+            <input type="password" placeholder="password" id="password">
+            <label id="correct"></label>
+         </div>
+         <br>
+        <button class="Login" onclick="func()">Login</button>
+      </div>
+    </section>
+    <script src="source.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .head{
+            height: 25vh;
+        } 
+        .poloo{
+            width:250px;
+            height: 250px;
+            padding: 10px;
+            float: left;
+            margin-top: 50px;
+            border-radius: 30px;
+            margin-left: 90px;
+            border: none;
+        }
+        .about{
+            background-color: #C19A6B;
+            height: 380px;
+            padding: 10px;
+            align-items: center;
+            margin-top: 20px;
+            animation-name: bout ;
+            animation-duration: 1s;
+            animation-timing-function:ease-in ;
+        }
+   
+        @keyframes bout{
+            from{
+            transform: translateX(-300px);
+            opacity: 0;
+        }
+            to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+         }
+        .both{
+            background-color: #C19A6B;
+            height: 380px;
+            padding: 10px;
+            align-items: center;
+            margin-top: 20px;
+            animation-name: bout ;
+            animation-duration: 1s;
+            animation-timing-function:ease-in ;
+        }
+   
+        @keyframes bout{
+            from{
+            transform: translateX(-300px);
+            opacity: 0;
+        }
+            to{
+            transform: translateX(0);
+            opacity: 1;
+        }
+        }
+        .bout{
+            text-align: center;
+        }
+        .ab{
+            margin: 10px;
+            margin-left: 40pc;
+            flex-grow: 1;
+            
+        }
+        .ploshirt{
+            padding-left: 50pc;
+            width: 250px;
+            height: 250px;
+            float: left;
+            padding: 10px;
+            margin-top: 50px;
+            border-radius: 30px;
+            margin-left: 90px;
+            border: none;
+           
+        }
+        .plo{
+            margin: 10px;
+            margin-left: 40pc;
+            flex-grow: 1;
+            flex-basis: 200;
+            
+        }
+        .container{
+            display: flex;
+            
+        }
+        .box{
+            flex-grow: 1;
+            flex-basis: 200;
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="web">
+        <header class="head">
+            <div class="headd">
+                <img id="bag" src="the trio shop logo.png" alt="bag " width="100" height="50px">
+                 <h1 class="sh">The Trio Clothing Shop</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a class="animation" href="home.html">Home</a></li>
+                    <li><a class="animation" href="shop.html">Products</a></li>
+                    <li><a class="animation" href="about web.html">About</a></li>
+                    <li><a class="animation" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <br>
+        </header>
+    </div>    
+
+    <div class="container">
+        <div class="box">
+            <h2 class="bout">About</h2>
+         <div class="about">
+              <img class="poloo" src="polo itemm.jpg" alt="Polo shirt">
+              <h3 class="ab">Polo shirt Longsleeve</h3>
+              <h3 class="ab">About this item</h3> <br>
+              <li class="ab">Material: 95% Cotton, 5% Spandex.Soft and comfortable to your skin,suit for daily wear or work.</li>
+              <li class="ab">Long sleeve & casual slim fit henley shirts, comfortable and slim fit casual wear, lightweight, basic designed. High Softness & Wearability.</li>
+              <li class="ab">Casual slim fit long sleeve henley T-Shirts soft to the touch for comfy wearing, pure cotton feels terrific all day long.</li>
+              <li class="ab">Suitable Occasion: Casual, Office, Work, Date, Party, Travel, Street, etc. Looking handsome while retaining ease of movement and added comfort.</li>
+              <li class="ab">Garment Care: Hand Wash Recommended / Machine Wash Cold,Tumble Dry Low With Care.</li>
+         </div>
+ 
+         <div class="both">
+             <img class="ploshirt" src="black shirt.jpg" alt="polo shirt">
+             <h3 class="plo">Polo Shirt</h3>
+             <h3 class="plo">About this item</h3> 
+             <li class="plo"><b>High Quality</b> Fabric The mens casual short sleeve shirt is made of textured material. Breathable, soft,<br> lightweight and skin friendly fabric keeps you cool and comfortable even in summer.</li>
+             <li class="plo"><b>Classic Design</b> Coofandy mens summer shirt features regular fit, spread collar, short sleeve and button closure. <br> Casual and simple designs will never be out of style.</li>
+             <li class="plo"><b>Easy to Match</b> Men beach shirts goes well with any outfit. <br> Great to match with slacks, formal pants, linen pants, jeans and casual shorts for a daily look, or pair with sandals, linen shorts and slippers as beach wear.</li>
+             <li class="plo"><b>Occassions</b> Mens button up wrinkle free shirts are suitable for beach, cruise, vacation, holiday, dating, <br> wedding, traveling, streetwear or any casual daily wear. Great as a gift for your lovers.</li>
+         </div>
+        </div>
+    </div>
+    <script src="source.js"></script>
+</body>
+</html>
